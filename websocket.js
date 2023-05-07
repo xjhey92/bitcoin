@@ -17,7 +17,7 @@ socket.onmessage = function(event) {
 
     // Create a new list item
     const listItem = document.createElement('li');
-    listItem.innerHTML = `BTC Price: ${closePrice}`;
+    listItem.innerHTML = `BTCd Price: ${closePrice}`;
 
     // Append the list item to the data list
     dataList.appendChild(listItem);
